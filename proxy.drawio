@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-31T06:20:54.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="4g2lHuQFNTh1E65RUyNp" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-31T06:49:26.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="7K1v85RGPSfihD8q-6sm" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1216" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="FcuShJZuBO1tvy11bk31-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="659.56" y="3520" width="166.87" height="450" as="geometry" />
+          <mxGeometry x="659.56" y="3520" width="170.44" height="450" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="3520" width="166.87" height="450" as="geometry" />
@@ -727,6 +727,9 @@
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-16" value="domain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="975.0000000000001" y="4010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-19" value="&lt;h1&gt;Domain Layer&lt;/h1&gt;&lt;div&gt;도메인 모델을 구현한다. (Order, OrderLine, ShippingInfo)&lt;/div&gt;&lt;div&gt;도메인 모델은 도메인의 핵심 로직을 구현한다.&amp;nbsp;&lt;/div&gt;&lt;div&gt;예를 들어 주문 도메인은 &#39;배송지 변경&#39;, &#39;결제 완료&#39;, &#39;주문 총액 계산&#39;과 같은 핵심 로직을 도메인 모델에서 구현한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="3800" width="311.87" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

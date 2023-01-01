@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T13:06:33.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="79ZIQYpBkl7AaJEXeK_-" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T13:39:03.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="AwzDsNljoKBzVyNi17m9" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1216" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -572,11 +572,17 @@
             <mxPoint x="898.9300000000001" y="3690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-3" target="FcuShJZuBO1tvy11bk31-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-3" value="storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="687.06" y="3560" width="121.87" height="260" as="geometry" />
         </mxCell>
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-11" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="913.9300000000001" y="3630" width="100" height="120" as="geometry" />
+          <mxGeometry x="913.93" y="3730" width="76.07" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-15" target="FcuShJZuBO1tvy11bk31-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-15" value="client" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="692.06" y="3860" width="111.87" height="90" as="geometry" />
@@ -729,7 +735,7 @@
           <mxGeometry x="975.0000000000001" y="4010" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-19" value="&lt;h1&gt;Domain Layer&lt;/h1&gt;&lt;div&gt;도메인 모델을 구현한다. (Order, OrderLine, ShippingInfo)&lt;/div&gt;&lt;div&gt;도메인 모델은 도메인의 핵심 로직을 구현한다.&amp;nbsp;&lt;/div&gt;&lt;div&gt;예를 들어 주문 도메인은 &#39;배송지 변경&#39;, &#39;결제 완료&#39;, &#39;주문 총액 계산&#39;과 같은 핵심 로직을 도메인 모델에서 구현한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="855" y="3800" width="311.87" height="130" as="geometry" />
+          <mxGeometry x="391.5" y="4142" width="311.87" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FcuShJZuBO1tvy11bk31-32" target="FcuShJZuBO1tvy11bk31-39">
           <mxGeometry relative="1" as="geometry" />
@@ -790,6 +796,12 @@
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-58" value="KAFKA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="286.12" y="5200" width="103.88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-59" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="913.93" y="3610" width="86.07" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-61" value="external&amp;nbsp;&lt;br&gt;server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="908.93" y="3865" width="96.07" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

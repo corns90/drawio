@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T15:43:53.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="aOoLBFAkKG3N9SFcIMhN" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T15:50:33.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="KFElXipmkswJkTfxjIq3" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1096" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -874,6 +874,9 @@
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-95" value="DAO&lt;br&gt;조회 전용 데이터 모델" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1350" y="4140" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-96" value="&lt;h1&gt;Application &amp;amp; Domain Layer&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;기능을 구현하기 위해 도메인 영역의 도메인 모델을 사용한다.&lt;/div&gt;&lt;div&gt;응용 서비스는 로직을 직접 수행하기보다는 도메인 모델에 로직 수행을 위임한다.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Domain&lt;/b&gt;&lt;/div&gt;&lt;div&gt;도메인 모델을 구현한다.&lt;/div&gt;&lt;div&gt;도메인 모델은 도메인의 핵심 로직을 구현한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="4290" width="390" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

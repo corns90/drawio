@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T15:15:28.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="fy1vX17Dh4_BooEOhzSW" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T15:25:33.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="ejI5jBL-QrsZS0iK-z5j" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1096" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -555,7 +555,7 @@
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-1" target="wtc7eU50YFqO_Ci_ob_X-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtc7eU50YFqO_Ci_ob_X-1" value="Approval-core" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="wtc7eU50YFqO_Ci_ob_X-1" value="payment-core" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="471.93" y="3560" width="121.87" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-2" target="wtc7eU50YFqO_Ci_ob_X-3" edge="1">
@@ -564,7 +564,7 @@
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-2" target="wtc7eU50YFqO_Ci_ob_X-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtc7eU50YFqO_Ci_ob_X-2" value="Issuing-core" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="wtc7eU50YFqO_Ci_ob_X-2" value="issuing-core" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="471.93" y="3740" width="121.87" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wtc7eU50YFqO_Ci_ob_X-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtc7eU50YFqO_Ci_ob_X-3" target="wtc7eU50YFqO_Ci_ob_X-11" edge="1">
@@ -806,35 +806,35 @@
         <mxCell id="FcuShJZuBO1tvy11bk31-63" value="&lt;h1&gt;Infrastructure Layer&lt;/h1&gt;&lt;div&gt;구현 기술에 대한 것을 다룬다.&lt;/div&gt;&lt;div&gt;RDBMS 연동을 처리하고 메시징 큐에 메시지를 전송/수신하는 기능을 구현&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1035" y="3700" width="311.87" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-64" value="payment-core&lt;br&gt;- 결제시 필요한 Card 도메인 모델을 가짐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FcuShJZuBO1tvy11bk31-64" value="payment-core&lt;br&gt;- SimpleCard -&amp;gt; Card 객체로 변환" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1440" y="3715" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-65" value="issuing-core&lt;br&gt;- 발급시 필요한 Card 도메인 모델을 가짐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FcuShJZuBO1tvy11bk31-65" value="issuing-core&lt;br&gt;- SimpleCard -&amp;gt; Card 객체로 변환" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1661.57" y="3715" width="208.43" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-66" value="storage&lt;br&gt;- SMPL_CARD (테이블과 매핑되는 SimpleCard 라는 Entity를 가짐)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FcuShJZuBO1tvy11bk31-66" value="storage&lt;br&gt;- SMPL_CARD (테이블과 매핑되는 SimpleCard 라는 Entity를 가짐) 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1440" y="3795" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-67" value="db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1440" y="3875" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-68" value="api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1450" y="3635" width="420" height="70" as="geometry" />
+          <mxGeometry x="1440" y="3635" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-76" value="Card(payment-core)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1950" y="3810" width="160" height="120" as="geometry" />
+          <mxGeometry x="1908" y="3725" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-77" value="카드사" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-76">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="FcuShJZuBO1tvy11bk31-77" value="+ 카드번호&#xa;+ 카드사" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-76">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FcuShJZuBO1tvy11bk31-76">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-79" value="+ makeTrack2&#xa;+ certify" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-76">
-          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        <mxCell id="FcuShJZuBO1tvy11bk31-79" value="+ makeTrack2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-76">
+          <mxGeometry y="78" width="160" height="32" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-80" value="Card(issuing-core)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2150" y="3810" width="160" height="130" as="geometry" />
+          <mxGeometry x="2090" y="3725" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-81" value="+ 카드번호&#xa;+ 비밀번호&#xa;+ 배송정보" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-80">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -842,7 +842,7 @@
         <mxCell id="FcuShJZuBO1tvy11bk31-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FcuShJZuBO1tvy11bk31-80">
           <mxGeometry y="80" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FcuShJZuBO1tvy11bk31-83" value="+ register(IssuingRequest)&#xa;+ 배송완료(" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-80">
+        <mxCell id="FcuShJZuBO1tvy11bk31-83" value="+ register(IssuingRequest)&#xa;+ shipTo(newShippingInfo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FcuShJZuBO1tvy11bk31-80">
           <mxGeometry y="88" width="160" height="42" as="geometry" />
         </mxCell>
       </root>

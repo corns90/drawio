@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T16:53:26.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="0cRwlWoEd9Nmt6hMYDQK" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-02T01:29:33.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" etag="FgRwc8RS-wzqsYC2a5dQ" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1218" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -877,6 +877,33 @@
         </mxCell>
         <mxCell id="FcuShJZuBO1tvy11bk31-96" value="&lt;h1&gt;Application &amp;amp; Domain Layer&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;기능을 구현하기 위해 도메인 영역의 도메인 모델을 사용한다.&lt;/div&gt;&lt;div&gt;응용 서비스는 로직을 직접 수행하기보다는 도메인 모델에 로직 수행을 위임한다.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Domain&lt;/b&gt;&lt;/div&gt;&lt;div&gt;도메인 모델을 구현한다.&lt;/div&gt;&lt;div&gt;도메인 모델은 도메인의 핵심 로직을 구현한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="4290" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-98" value="payment-core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1600" y="4080" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-99" value="issuing-core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1780" y="4080" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-100" value="storage&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1600" y="4160" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-101" value="db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1600" y="4240" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-102" value="api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1600" y="4000" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-103" value="settlement-core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="4080" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-105" value="storage&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="4160" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-106" value="db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="4240" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcuShJZuBO1tvy11bk31-107" value="batch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="4000" width="340" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

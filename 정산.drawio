@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T08:33:07.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.7.4" etag="-AmAl_1EKKUprXq9zOa9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T08:39:22.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.7.4" etag="WFSP64UgnQhlbF4c88Xn" type="github">
   <diagram id="rQKMFvDN-5XR97tvGXt8" name="페이지-1">
     <mxGraphModel dx="957" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-19" target="G-DJe9Chft_Y5kZSpjOI-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G-DJe9Chft_Y5kZSpjOI-19" value="slip(채권)&lt;br&gt;(type=bond)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-19" value="slip(채권)&lt;br&gt;(type=bnd)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="120" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-20" value="slip(수수료매출)&lt;br&gt;(type=fee_sales)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">

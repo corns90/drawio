@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T08:11:15.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.7.4" etag="kPcHmC0T2TkFGFGqNuVO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T08:24:26.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.7.4" etag="RK-Vf4sG8hSJXsl-TpoL" type="github">
   <diagram id="rQKMFvDN-5XR97tvGXt8" name="페이지-1">
     <mxGraphModel dx="1148" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-18" target="G-DJe9Chft_Y5kZSpjOI-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G-DJe9Chft_Y5kZSpjOI-18" value="trad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="120" width="60" height="60" as="geometry" />
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-18" value="trad(거래)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-19" target="G-DJe9Chft_Y5kZSpjOI-21">
           <mxGeometry relative="1" as="geometry">
@@ -49,14 +49,47 @@
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-33" value="1. 채권전표 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="120" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="G-DJe9Chft_Y5kZSpjOI-34" value="3. 수수료 매출 &lt;br&gt;전표 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="180" width="100" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-35" value="4. 지급전표 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="240" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="G-DJe9Chft_Y5kZSpjOI-36" value="6. 지급전표 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="364" y="340" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-34" value="3. 수수료 매출 &lt;br&gt;전표 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="360" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-42" value="DCB ADMIN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-43" value="slip(채권)&lt;br&gt;(type=pmt)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-44" value="slip(채권)&lt;br&gt;(type=fee)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-45" value="slip(채권)&lt;br&gt;(type=cost)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-46" target="G-DJe9Chft_Y5kZSpjOI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-46" target="G-DJe9Chft_Y5kZSpjOI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-DJe9Chft_Y5kZSpjOI-46" target="G-DJe9Chft_Y5kZSpjOI-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-46" value="setl(정산)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-50" value="채권반제 &amp;gt; 반제등록 메뉴" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="65" y="510" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G-DJe9Chft_Y5kZSpjOI-51" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;반제 집계 클릭시,&lt;br&gt;각 전표들 생성&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="565" width="90" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

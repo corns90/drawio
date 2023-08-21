@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T01:53:18.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.22 Safari/537.36" etag="FlF85lKaIIDvymf7eljo" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T02:17:00.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.22 Safari/537.36" etag="55iyFOGTrudFD90qXqXP" version="21.6.8" type="github">
   <diagram name="페이지-1" id="Y4-RYcunbu9aRbEV_naR">
     <mxGraphModel dx="748" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,6 +420,102 @@
         </mxCell>
         <mxCell id="Oq6ClZ9OewPaVYauBHl8-25" value="한 팀에서 개발" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="2715" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="2840" width="365" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2910" width="65.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="157" y="2910" width="65.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="239.25" y="2910" width="65.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="2910" width="65.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-32" value="온라인 쇼핑 바운디드 컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="107.25" y="2860" width="248.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-33" value="주문&lt;br&gt;바운디드&lt;br&gt;컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80.07" y="2923" width="59.87" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-34" value="카탈로그&lt;br&gt;바운디드&lt;br&gt;컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="162.13" y="2923" width="59.87" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-35" value="회원&lt;br&gt;바운디드&lt;br&gt;컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.75" y="2923" width="59.87" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-36" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.44" y="2920" width="59.87" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="3140" width="151" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223.75" y="3140" width="151" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-45" value="표현 영역" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="57.75" y="3200" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-46" value="응용 서비스" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="58.25" y="3240" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-47" value="도메인" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="58.25" y="3280" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-48" value="인프라스트럭처" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="58.25" y="3320" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-49" value="표현 영역" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="3200" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-50" value="서비스" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="232" y="3240" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-51" value="DAO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="232" y="3280" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-52" value="주문&lt;br&gt;바운디드 컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.25" y="3150" width="133.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-53" value="리뷰&lt;br&gt;바운디드 컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="3150" width="133.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-54" value="DBMS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="82.13" y="3360" width="86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-55" value="DBMS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="256.38" y="3320" width="86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3140" width="316" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-57" value="표현 영역" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="428.75" y="3200" width="281.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-58" value="바운디드 컨텍스트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500.13" y="3150" width="139.87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-61" value="응용 서비스" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="428.75" y="3240" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-62" value="서비스" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="576.5" y="3240" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-63" value="도메인" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="428.75" y="3280" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-64" value="인프라스트럭처" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="428.75" y="3320" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-65" value="DAO&lt;br&gt;조회 전용 데이터 모델" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="576.5" y="3280" width="133.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq6ClZ9OewPaVYauBHl8-66" value="DBMS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="3360" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

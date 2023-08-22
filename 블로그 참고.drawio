@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T07:11:19.375Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.22 Safari/537.36" etag="9gDQReBUKd7ITSV3eTc6" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T07:12:09.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.22 Safari/537.36" etag="J00i6fUeMYzUWSwMWDdy" version="21.6.8" type="github">
   <diagram name="페이지-1" id="Y4-RYcunbu9aRbEV_naR">
     <mxGraphModel dx="748" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,6 +705,52 @@
         </mxCell>
         <mxCell id="MCfoHtqSefYnALDlVHi6-30" value="이벤트를 주기적으로 READ&lt;br&gt;어디까지 전달했는지 추적" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="46.5" y="4990" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCfoHtqSefYnALDlVHi6-32" target="MCfoHtqSefYnALDlVHi6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-32" value="도메인" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="5130" width="83.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MCfoHtqSefYnALDlVHi6-34" target="MCfoHtqSefYnALDlVHi6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-34" value="이벤트&lt;br&gt;디스패처" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="215.5" y="5130" width="83.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;" edge="1" parent="1" source="MCfoHtqSefYnALDlVHi6-36" target="MCfoHtqSefYnALDlVHi6-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423.5" y="5295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-36" value="로컬 핸들러" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="5130" width="83.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-37" value="저장소" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="211.43" y="5250" width="87.57" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MCfoHtqSefYnALDlVHi6-40" target="MCfoHtqSefYnALDlVHi6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-40" value="API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="213.47" y="5400" width="83.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MCfoHtqSefYnALDlVHi6-41" target="MCfoHtqSefYnALDlVHi6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-41" value="이벤트&lt;br&gt;핸들러" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="5400" width="83.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-42" value="이벤트 저장" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419.5" y="5250" width="88" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-43" value="REST로&lt;br&gt;이벤트를 외부에 제공" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="5470" width="107.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MCfoHtqSefYnALDlVHi6-45" value="API를 통해 이벤트를&lt;br&gt;읽어와 처리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366" y="5470" width="107.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
